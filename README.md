@@ -32,7 +32,7 @@ Lesson 2 - Basic Types
 
 1. Type inference (difference between implicit versus explicit)
 2. Basic Types
-   - string, number, boolean, any, union
+   - string, number, boolean, any, union (avoid any type whenever possible)
 3. Type annotation for functions
 4. RegExp built in type (RegExp)
 
@@ -51,3 +51,15 @@ Lesson 4- Functions
 3. Function specific types (void, never)
 4. Optional params, Default params, Rest/Spread Params
 5. Using type guards and creating custom type guards
+
+Lesson 5- Type Casting/Type Assertions
+
+- An Assertion is simply telling the TS compiler you know more about the type because you have more detail about it than what TS compiler can infer or know about.
+  - ex. When creating a variable that represents an HTML element i.e. a span, the TS compiler will infer that the variable is of type HTMLElement or null. We can assert that the variable is of type HTMLSpanElement.
+- Sometimes we will have information about the type of a value that TS can't or doesn't know about. This happens most often when we're working with the DOM/web page documents.
+
+1. As keyword
+2. <> syntax
+3. `non null` assertion (!)
+
+Lesson 6- Classes
