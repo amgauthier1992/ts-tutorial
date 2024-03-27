@@ -46,7 +46,7 @@ Lesson 3- Arrays and Objects (and Tuples)
 Lesson 4- Functions
 
 1. Type Aliases and Literal Types
-   a. Cant use interfaces with aliases
+   - Cant use interfaces with aliases
 2. Annotating params and return types
 3. Function specific types (void, never)
 4. Optional params, Default params, Rest/Spread Params
@@ -66,20 +66,20 @@ Lesson 6- Classes
 
 1. Instance members- properties of a class that show up when it's instantiated
 2. Creating classes
-   a. Using access/visibility modifiers
-   i. public (default)
-   ii. private - member is visible within the class itself
-   iii. protected - member is visible only to the class and its derived classes.
-   b. Default values
+   - Using access/visibility modifiers
+     - public (default)
+     - private - member is visible within the class itself
+     - protected - member is visible only to the class and its derived classes.
+   - Default values
 3. Extending classes
-   a. What to include in constructor
-   b. super()
+   - What to include in constructor
+   - super()
 4. Implementing classes with interfaces
 5. Static members- properties of a class that are visible on the class itself rather than on it's instances
 6. Getter/Setter
-   a. get keyword
-   b. set keyword
-   i. setter cannot return a value
+   - get keyword
+   - set keyword
+     - setter cannot return a value
 
 Bonus Tips-
 Shift + alt and down arrow to copy lines
@@ -89,7 +89,22 @@ Ctrl + Shift + I - Open dev tools
 Lesson 7- Index Signatures & keyof Assertions
 
 1. What are Index Signatures?
+   - Allows us to define a type for objects that have properties with dynamic keys (i.e. keys not known at compile time). They provide a way to declare the types of such properties.
 2. What is a keyof Assertion?
+   - Uses the keyof keyword to extract keys from an object type. It's a way to obtain a union type representing all possible keys of an object type. This can be particularly useful in scenarios where you want to enforce type safety when accessing properties of an object.
 3. Record<> utility type
 
 Lesson 8- Generics
+
+1. What are they?
+   - Sometimes we simply don't know what types will be passed into a function, interface, type alias, class etc.
+   - Generics allow us to provide a placeholder (a sort of type variable)
+2. Use of `<T>`
+   - function params and use of extends keyword
+   - interfaces
+   - classes
+
+Bonus Tips-
+Use of !! operator
+
+Lesson 9- Utility Types
