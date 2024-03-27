@@ -63,3 +63,26 @@ Lesson 5- Type Casting/Type Assertions
 3. `non null` assertion (!)
 
 Lesson 6- Classes
+
+1. Instance members- properties of a class that show up when it's instantiated
+2. Creating classes
+   a. Using access/visibility modifiers
+   i. public (default)
+   ii. private - member is visible within the class itself
+   iii. protected - member is visible only to the class and its derived classes.
+   b. Default values
+3. Extending classes
+   a. What to include in constructor
+   b. super()
+4. Implementing classes with interfaces
+5. Static members- properties of a class that are visible on the class itself rather than on it's instances
+6. Getter/Setter
+   a. get keyword
+   b. set keyword
+      i. setter cannot return a value
+
+Bonus Tips-
+Shift + alt and down arrow to copy lines
+Ctrl + D - Select current word your cursor is located at
+
+Lesson 7- Index Signatures & keyof Assertions
