@@ -79,10 +79,17 @@ Lesson 6- Classes
 6. Getter/Setter
    a. get keyword
    b. set keyword
-      i. setter cannot return a value
+   i. setter cannot return a value
 
 Bonus Tips-
 Shift + alt and down arrow to copy lines
 Ctrl + D - Select current word your cursor is located at
+Ctrl + Shift + I - Open dev tools
 
 Lesson 7- Index Signatures & keyof Assertions
+
+1. What are Index Signatures?
+2. What is a keyof Assertion?
+3. Record<> utility type
+
+Lesson 8- Generics
