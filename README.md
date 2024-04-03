@@ -123,3 +123,5 @@ Use of !! operator
 12. Awaited- helps us with the ReturnType of a Promise
 
 ## Lesson 10- Vite.js and TypeScript
+
+* See vite-ts-project
